@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200&family=Inter:wght@200&family=Poppins:wght@300&family=Raleway&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+header{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 100px;
+}
+header a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 30px;
+}
+nav a:hover{
+    color: rgb(12, 112, 212);
+    transition: all 0.4s;
+}
+section{
+    padding: 100px;
+}
+#main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    background-size:cover;
+    background-attachment: fixed;
+    background-color: #1b1c1d;
+    /* background: url(/Pic/bg/background\ \(2\).png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+#main h2{
+    color: whitesmoke;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-top: 20px;
+}
+#main span{
+    color: rgb(12, 112, 212);
+    font-size: 3em;
+    margin-top: 10px;
+    font-weight: 600;
+    display: block;
+}
+#main h3{
+    color: whitesmoke;
+    font-size: 1.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.main-btn{
+    text-decoration: none;
+    background-color: rgb(12, 112, 212);
+    color: white;
+    padding: 0.9375em 2.15em;
+    border-radius: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    transition: 1s ease;
+}
+.social-icons a{
+    color: white;
+    font-size: 1.5em;
+    padding-right: 10px;
+}
+.title{
+    text-align: center;
+    padding: 30px;
+    color: rgb(12, 112, 212);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 270px;
+    padding: 50px 20px;
+    margin-right: 15px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 15px;
+    background-color: rgb(252, 252, 252);
+}
+.card:hover{
+    transform: scale(1.07);
+    transition: 0.7s ease;
+}
+.icon{
+    width: 150px;
+}
+.card-title{
+    color: rgb(12, 112, 212);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.card-description{
+    text-align: center;
+}
+#services{
+    width: 100%;
+    min-height: 100vh;
+}
+#projects{
+    background-color: rgb(12, 112, 212);
+    width: 100%;
+    min-height: 100vh;
+}
+#projects .container{
+    display: flex;
+    flex-direction: row;
+}
+.p-card{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    min-height: 14em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 10px;
+    transition: 0.7s ease;
+}
+.p-card:hover{
+    transform: scale(1.1);
+}
+.p-card:hover .p-img{
+    opacity: 0.9;
+}
+.p-img{
+    height: 180px;
+}
+.p-img img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.p-info{
+    padding: 1em;
+    height: 60px;
+}
+.p-p{
+    font-size: 0.8em;
+    color: black;
+}
+.p-title{
+    display: flex;
+    justify-content: space-between;
+}
+.more-details{
+    text-decoration: none;
+    color: rgb(12, 112, 212);
+}
+.rose{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+footer{
+    background-color: rgb(24, 24, 24);
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+footer h3{
+    color: whitesmoke;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.nova{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-weight:500;
+    font-size: 1.4em;
+    text-align: right;
+}
+.dhalia{
+    font-size: 90px;
+    text-align: center;
+}
